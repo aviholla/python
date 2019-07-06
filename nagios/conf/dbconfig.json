@@ -1,0 +1,36 @@
+{
+	"DB" : {
+		"source" : {
+			"lpdvnagios06": {
+				"host" : "lpdvnagios06.lvn.broadcom.net",
+				"user": "nagiosread",
+				"passwd": "N@g!os123",
+				"database": "nagios"
+			},
+			"lpdvnagios07": {
+				"host" : "lpdvnagios07.lvn.broadcom.net",
+				"user": "nagiosread",
+				"passwd": "N@g!os123",
+				"database": "nagios"
+			},
+			"lpdvnagios08" : {
+				"host" : "lpdvnagios08.lvn.broadcom.net",
+				"user": "nagiosread",
+				"passwd": "N@g!os123",
+				"database": "nagios"
+			},
+			"lpdvnagios09" : {
+				"host" : "lpdvnagios09.lvn.broadcom.net",
+				"user": "nagiosread",
+				"passwd": "N@g!os123",
+				"database": "nagios"
+			}
+		},
+		"destination" : {
+			"host" : "gesmatrix.lvn.broadcom.net",
+			"user": "metrix",
+			"passwd": "metrix",
+			"database": "nagios_monitors"
+		}
+	}
+}
